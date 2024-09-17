@@ -1,0 +1,111 @@
+body{
+    background-color: #fff;
+}
+
+.container{
+    background-color: #000;
+    height: 425px;
+    margin: 20px;
+    border-radius: 30px;
+}
+.header{
+   
+}
+
+.title{
+    font-family: "Handjet", sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    color:chartreuse;
+    text-align: center;
+    text-shadow: rgba(240, 46, 170, 0.4) 0px 40px, rgba(240, 46, 170, 0.3) 0px 80px, rgba(240, 46, 170, 0.2) 0px 120px, rgba(240, 46, 170, 0.1) 0px 140px, rgba(240, 46, 170, 0.05) 0px 180px;
+}
+
+nav {
+    font-family: "Handjet", sans-serif;
+    color:chartreuse;
+    margin-top: 150px;
+    border-radius: 50px;
+    border: 1px 0px ,solid,#fff;
+    
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;    
+}
+
+.navigation a {
+  text-decoration: line-through ;
+  color:chartreuse;
+  font-size: 40px;
+  transition: color 0.3s;
+}
+
+.navigation a:hover {
+    text-decoration: none;
+    text-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    transition: 0.5s;
+    
+}
+
+.title a{
+    text-decoration: none;
+    color: chartreuse;
+}
+
+.navigation .main_page{
+    text-decoration: none;
+    text-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    transition: 0.5s;
+}
+
+.number_hw{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    color:chartreuse;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 1%;
+    
+    
+}
+
+strong{
+    color:chartreuse;
+}
+
+
+.code_git{
+    background-color: #000;
+    border-radius: 30px;
+    margin: 20px;
+    
+}
+
+.code_git li{
+   list-style: none;
+    margin-left: 20px;
+    padding: 5px;
+         color: #fff;
+     font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 10%;
+    margin-bottom: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
