@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bio-website</title>
+    <link rel="stylesheet" href="linux.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+       <div class="container">
+    <div class="header">
+        <div class="title"> <a href="index.html">Bio-website</a></div>
+    </div>
+    
+     <nav>
+    <ul class="navigation">
+      <li><a href="Code.html">Code</a></li>
+      <li><a href="Homework.html">Home Work</a></li>
+      <li><a href="#">Certificate</a></li>
+      <li><a href="linux.html" class="main_page">Linux</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="info">
+    <div class="control_sys">
+        <title>Коротка інформація про ОС GNU/Linux</title>
+        <li><b>GNU/Linux</b>— це вільна операційна система, яка складається з ядра Linux і програмного забезпечення проекту GNU. Вона підтримує багатозадачність, багатокористувацьку роботу і є відкритою (Open Source), що дозволяє користувачам змінювати та адаптувати її під свої потреби. Основна частина програмного забезпечення доступна за ліцензією GNU GPL, що забезпечує свободу використання, копіювання та розповсюдження.</li>
+    </div>
+    <div class="about_git">
+        <title>Перелік найбільш популярних дистрибутивів</title>
+        <li> <b>Ubuntu </b>– один із найпопулярніших дистрибутивів для новачків та досвідчених користувачів.</li>
+        <li><b>Debian</b>– стабільний дистрибутив, на якому базується Ubuntu.</li>
+        <li><b>Fedora </b>– орієнтований на новітні технології та розробку.</li>
+        <li><b>CentOS </b>– дистрибутив для серверів на основі Red Hat Enterprise Linux.</li>
+        <li><b>Arch Linux </b>– дистрибутив для просунутих користувачів, відомий своєю мінімалістичністю.
+</li>
+    </div>
+    
+    <div class="code_git">
+     <title>Приклади команд роботи в Linux CLI
+        <br> (pwd, echo, ls, cd, touch, mkdir, cp, mv, rm, history);</title>
+        <li><strong>pwd</strong> – показує поточний каталог.</li>
+        <li><strong>echo</strong> – виводить текст у термінал.</li>
+        <li><strong>ls</strong> – показує вміст каталогу.</li>
+        <li><strong>cd</strong> – змінює поточний каталог.</li>
+        <li><strong>touch</strong> – створює порожній файл.</li>
+        <li><strong>mkdir</strong> – створює новий каталог.</li>
+        <li><strong>cp</strong> – копіює файли або каталоги.</li>
+        <li><strong>mv</strong> – переміщує або перейменовує файли.</li>
+        <li><strong>rm</strong> – видаляє файли або каталоги.</li>
+        <li><strong>history</strong> – виводить список команд, які ви вже виконували.</li>
+   
+</div>
+
+<div class="code_bush">
+   <title>BASH-скрипт, що імітує авторизацію в системі в текстовому режимів</title>
+    <pre><code>
+#!/bin/bash
+
+# Стандартний логін і пароль
+correct_username="user"
+correct_password="password"
+
+# Запитуємо логін і пароль у користувача
+echo "Введіть логін:"
+read input_username
+
+echo "Введіть пароль:"
+read -s input_password
+
+# Перевірка правильності введених даних
+if [[ "$input_username" == "$correct_username" && "$input_password" == "$correct_password" ]]; then
+    echo "Авторизація пройдена успішно!"
+else
+    echo "Невірний логін або пароль!"
+fi
+</code></pre>
+
+</div>
+
+</div>
+
+</body>
+</html>
